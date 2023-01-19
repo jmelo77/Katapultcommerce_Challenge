@@ -117,3 +117,7 @@ POST http://localhost:8000/api/login/refresh
 ```
 
 ![alt text](img/endpoints.png "Katapultcommerce API")
+
+## Entity relationship diagram
+
+![alt text](img/Katapultcommerce_ER.png "Entity Diagram Relationship Katapultcommerce")
