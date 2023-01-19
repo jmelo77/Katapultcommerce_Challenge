@@ -61,7 +61,7 @@ class User(AbstractUser):
 
 class Provider(models.Model):
     provider_name = models.CharField(max_length=128)
-    nit_provider = models.CharField(max_length=64, validators =[validate_nit])
+    nit_provider = models.CharField(max_length=11, validators =[validate_nit])
     contact_name = models.CharField(max_length=128)
     cell_phone_contact = models.CharField(max_length=10, blank=True, null=True)
 
