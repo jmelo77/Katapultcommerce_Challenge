@@ -24,7 +24,6 @@ class BankSerializer(serializers.ModelSerializer):
         fields = [
             'id',
             'bank_name'
-            # 'provider',
         ]
         depth=1
 
