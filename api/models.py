@@ -70,7 +70,7 @@ class Provider(models.Model):
 
 class Bank(models.Model):
     bank_name = models.CharField(max_length=128)
-    provider = models.ManyToManyField(Provider, through='BankAccount', related_name='providers_in_bank')
+    provider = models.ManyToManyField(Provider, through='BankAccount', related_name='bank')
 
     def __str__(self):
         return self.bank_name
